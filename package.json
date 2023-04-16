@@ -2,11 +2,11 @@
   "name": "server",
   "version": "1.0.0",
   "private": true,
-  "main": "/server.js",
+  "main": "./server.js",
   "scripts": {
     "dev": "node ace serve --watch",
     "build": "node ace build --production",
-    "start": "node dist/server.js",
+    "start": "node server.js",
     "test": "node ace test",
     "lint": "eslint . --ext=.ts",
     "format": "prettier --write ."
