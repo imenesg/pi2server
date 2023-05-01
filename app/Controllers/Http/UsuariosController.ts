@@ -12,7 +12,6 @@ export default class UsuariosController {
       const data = request.only(['uid'])
       if(!await Usuario.findBy('uid', data.uid )){
         const usuario = Usuario.create(data)
-        console.log('passou aqui ', usuario );
         return usuario
       }
     } catch (err) {
