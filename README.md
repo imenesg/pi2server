@@ -11,6 +11,12 @@ npm install
 
 ### comando para iniciar o pojeto
 
+1. Roda comando para executar as migrations
+```sh
+node ace migration:run
+```
+
+2. Roda projeto
 ```sh
 npm run dev
 ```
